@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# This class implements a hash map data structure.
+# It provides methods for storing, retrieving, and managing key-value pairs.
 class HashMap
   attr_accessor :load_factor, :capacity
 
