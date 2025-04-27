@@ -33,7 +33,7 @@ class HashMap
     bucket.each do |entry|
       if entry[:key] == key
         entry[:value] = value
-        return
+        return entry
       end
     end
     bucket << { key: key, value: value }
